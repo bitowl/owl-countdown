@@ -1,0 +1,38 @@
+{
+  "name": "owl-countdown",
+  "version": "0.0.0",
+  "description": "A simple countdown. Based on gdq-countdown",
+  "homepage": "",
+  "author": {
+    "name": "bitowl",
+    "email": "bitowl@bitowl.de",
+    "url": "https://bitowl.net"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~1.1.0",
+    "bundleDependencies": {
+      "owl-nodecg-styles": "^0.0.0"
+    },
+    "dashboardPanels": [
+      {
+        "name": "countdown",
+        "title": "Countdown",
+        "width": 2,
+        "file": "countdown.html",
+        "headerColor": "#525F78"
+      }
+    ]
+  },
+  "repository": "git@github.com:bitowl/nodecg.git",
+  "license": "MIT"
+}
